@@ -1,0 +1,94 @@
+/* Global Classes */
+
+/* END Global Classes */
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #80d4ea;
+}
+
+#timeBtn {
+    z-index: 2;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 32px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+}
+
+#timeBtn:hover {
+    -webkit-box-shadow: inset 0px 1px 5px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: inset 0px 1px 5px 2px rgba(0,0,0,0.53);
+    box-shadow: inset 0px 1px 5px 2px rgba(0,0,0,0.53);
+    background-color: #6fb8cb;
+}
+
+#time{
+    margin: 0;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+#day {
+    font-size: 96px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 70px;
+    font-family: courier, monospace;
+    text-align: center;
+}
+
+#date {
+    font-size: 64px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 160px;
+    font-family: courier, monospace;
+    text-align: center;
+}
+
+#clock {
+    font-size: 96px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 220px;
+    font-family: courier, monospace;
+    text-align: center;
+}
+
+#timesettings {
+    margin-left: 0;
+    margin-right: 0;
+    transform-origin: top center;
+    transition: all 1s ease;
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    background-color: #60a0b0;
+    transform: scaleY(0);
+}
+
+#timesettings.unscale {
+    transform: scaleY(1);
+}
+
+#timesettings form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#timesettings fieldset {
+    width: 300px;
+    margin: auto;
+}
